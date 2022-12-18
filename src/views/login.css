@@ -1,0 +1,92 @@
+/*Style de la section registrationformulaireCtnr*/
+
+.Header {
+  position: sticky;
+  top: 0;
+}
+
+/*styles header*/
+
+.mak-navbar{
+  padding: 0.8rem 0;
+  background-color: var(--bg-blue);
+}
+
+.mak-navbar .row{
+  align-items: center;
+}
+
+.mak-navbar .mak-brand{
+  font-family: var(--sono);
+  color: var(--bg-white);
+  font-size: 2.5rem;
+}
+
+
+.mak-navbar .mak-nav ul{
+  justify-content: end;
+  align-items: center;
+  margin-bottom: 0;
+ 
+ 
+}
+
+.mak-navbar .mak-nav ul li{
+  margin: 0 2rem;
+}
+
+.mak-navbar .mak-nav ul li a{
+  color: var( --text-white);
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 1.3rem;
+}
+
+.mak-navbar .mak-nav ul li a:hover{
+  color: var( --text-white);
+}
+
+.mak-navbar .mak-nav ul li .active{
+  color: var( --text-white);
+  font-weight: 700;
+}
+ 
+/*Style de la section registrationformulaireCtnr*/
+.registrationformulaireCtnr .connexion{
+ width: 650px;
+  padding: 2rem 0;
+  margin:0 auto;
+ margin-top: 20px;
+ border-bottom: solid 1px black;
+ text-align: center;
+ color: var(--text-black);
+ font-size: 4.5rem;
+}
+
+.registrationformulaireCtnr label{
+ width: 100px;
+  margin-bottom: 1rem;
+  text-align: center;
+  align-items: right;
+}
+
+.registrationformulaireCtnr p {
+  text-align: center;
+  color: var(--text-black);
+  margin-top: 20px;
+
+}
+
+/*Bouton de connexion*/
+.btnConnect{
+  padding: 0.5rem 2rem;
+  background-color: var( --bg-blue);
+  color: var( --text-white);
+  transition: all 0.5S;
+  font-size: 1.5rem;
+  border: none;
+}
+
+.btnConnect:hover{
+  color: var(--bg-blue);
+}

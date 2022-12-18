@@ -1,0 +1,79 @@
+/* styles des cards card*/
+.card-group {
+  background-color: var(--bg-white);
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  margin: 0 auto;
+  width: 400px;
+  box-shadow: 0px 1px 15px 1px rgba(0, 0, 0, 0.10);
+  cursor: pointer;
+}
+
+.card-group p {
+  margin: 0;
+}
+
+.card-group figcaption p{
+text-align: center;
+}
+
+.card-group figcaption .service {
+width: 80px;
+  font-size: 0.9rem;
+  color: var(--text-white);
+  border-radius: 4px;
+  background-color: var(--text-bleu);
+}
+
+.card-group figcaption .name {
+  margin-top: 0.5rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+/* styles de imgCttnr */
+.imgCtnr img {
+  width: 100%;
+  border-radius: 5px;
+  transition: all 0.3s;
+}
+
+/* styles de imgCttnr */
+.email, .adress .phone, .birth {
+  font-size: 0.9rem;
+  padding-right:20px;
+}
+
+.email svg, .phone svg, .birthdate svg {
+  color: var(--text-blue);
+}
+
+/* style du boutton, link,  container*/
+.btnContainer .button{
+  text-decoration: none;
+  border-style: none;
+  padding: 0.1rem 1rem;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+
+.btnContainer button {
+  color: var(--text-black);
+
+  border: 1px solid  var(--text-bleu);
+}
+
+.btnContainer a {
+  text-decoration: none;
+  border-style: none;
+  color: var(--text-black);
+
+
+  padding: 0.1rem 1rem;
+  border-radius: 5px;
+  border: 1px solid  var(--text-gray);
+  margin: 0 auto;
+}
+

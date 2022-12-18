@@ -1,0 +1,47 @@
+/* styles du formulaire d'ajout*/
+.formcollab{
+  margin: 0 auto;
+  background-color: var( --bg-gray);
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+.formcollab label {
+  font-size: 1.1rem;
+  color: var(--text-gray);
+}
+/* styles du filtreCtnr*/
+.fieldCtnr{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.fieldCtnr input, .fieldCtnr select{
+  width: 90%;
+  font-size: 1.1rem;
+  border-radius: 5px;
+  border-style: none;
+  padding: 0.2rem 0.5rem;
+}
+
+/* styles du message d'erreur*/
+.errorMessage{
+  color: rgb(42, 165, 95);
+
+  font-size: 0.9rem;
+}
+/* styles du bouton d'envoi*/
+.btnSend{
+  border-style: none;
+  padding: 0.5rem 1rem;
+  color: var(--text-white);
+  font-size: 1.1rem;
+  border-radius: 8px;
+  background-color: var(--text-bleu);
+  transition: all 0.5S;
+}
+
+.btnSend:hover{
+  color: var(--text-bleue);
+
+}

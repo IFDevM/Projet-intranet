@@ -1,0 +1,29 @@
+
+/* styles de la section recherche*/
+
+
+.searchform .filteredCtnr{
+    display: inline-block;  
+}
+
+.searchform .filteredCtnr .filter label{
+    font-size: 1.2rem;
+margin-right: 20px;
+padding-top: 10px;
+
+}
+.searchform input, .searchform .filteredCtnr select{
+    font-size: 1.1rem;
+    border-style: none;
+    border: 1px solid var(--text-gray);
+    padding: 0.2rem 0.4rem;
+    border-radius: 5px;
+}
+
+/* styles de la section d'affichage*/
+
+.affichage{
+    display: flex;
+    flex-wrap: wrap;
+}
+

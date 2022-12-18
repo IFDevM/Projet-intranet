@@ -1,0 +1,15 @@
+h1 {
+  font-size: 80px;
+}
+
+h1,h2,.btn-connect-error {
+  margin: 40px ;
+}
+
+.error-message {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
